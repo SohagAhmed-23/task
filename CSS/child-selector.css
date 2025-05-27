@@ -1,0 +1,35 @@
+/* child-selector-1 */
+#content-block > p {
+    background-color: #e0f7fa;   
+    color: #006064;              
+    border: 2px solid #00838f;   
+}
+/* child-selector-1 */
+#main-list > li {
+    font-weight: bold;
+    background-color: #ffe082;
+    margin-bottom: 8px;
+}
+#main-list,li, ul {
+    font-weight: normal;
+    background-color: #ffffff;
+   
+}
+/* child-selector-3 */
+#intro-text > span {
+    color:brown;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+/* child-selector-4 */
+#top-menu > a {
+    background-color: #00838f;
+    color: #ffffff;
+    border-radius: 6px;
+}
+/* child-selector-5 */
+#registration-form > input  {
+    background-color: #ef7715;
+    border: 2px solid #0cf30c;
+    padding: 10px;
+}
