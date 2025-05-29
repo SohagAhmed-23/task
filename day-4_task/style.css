@@ -1,0 +1,172 @@
+/* task-1 */
+.profile-card {
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .profile-card {
+    width: 90%;
+    max-width: 90%;
+  }
+}
+/* task-2 */
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.feature-list li {
+  padding: 15px;
+  background: #f8f8f8;
+}
+
+@media (max-width: 600px) {
+  .feature-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}
+/* task-3 */
+.cta {
+  text-align: center;
+}
+
+.cta-button {
+  font-size: 20px;
+  padding: 20px 40px;
+  background: #ff5733;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .cta-button {
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .cta-button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+}
+/* task-4 */
+.testimonial {
+  width: 60%;
+  padding: 30px;
+  margin: 40px auto;
+  background: #e6e6e6;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .testimonial {
+    width: 100%;
+  }
+}
+/* task-5 */
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+main {
+  flex: 1 1 0;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    padding: 16px;
+  }
+}
+.pricing {
+  display: flex;
+  gap: 15px;
+}
+
+.price-card {
+  flex: 1;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+@media (max-width: 600px) {
+  .pricing {
+    flex-direction: column;
+  }
+}
+.form {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.form input,
+.form button {
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .form {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  margin-top: 30px;
+  max-height: 200px;
+  min-height: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  .gallery img {
+    max-height: 100px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+  .gallery img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
