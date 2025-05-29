@@ -1,0 +1,46 @@
+@import "_reset.scss";
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$danger-color: #e74c3c;
+$font-family: 'Arial', sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.5;
+$border-radius: 4px;
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+$transition-duration: 0.3s;
+$transition-timing-function: ease-in-out;
+$padding-base: 10px;
+$text-color: #fff;
+
+$font-weights: (
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600,
+    "light": 300,
+    "bold": 700,
+    "bolder": 900
+);
+
+
+body{
+    background-color: $danger-color;
+    color:$text-color;
+    font-weight: map-get($font-weights, "bolder");
+}
+.main{
+    width: 80%;
+   
+    margin: 0 auto;
+   &_paragraph{
+     background-color: $secondary-color;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    font-family: $font-family;
+    padding: $padding-base;
+    &:hover{
+    background-color: $primary-color;
+    transition: background-color $transition-duration $transition-timing-function;
+}
+}
+
+}
