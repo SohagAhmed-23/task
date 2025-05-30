@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Units and Layout Examples</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>CSS Units and Layout Examples</h1>
+
+<!-- Task 1: Absolute vs. Relative Units -->
+<div id="task1-container">
+    <div class="box absolute-box">
+        150px &times; 100px<br>
+        (absolute units: px)
+    </div>
+    <div class="box relative-box">
+        50% of parent width, 30vh height<br>
+        (relative units: % and vh)
+    </div>
+</div>
+
+<!-- Task 2: em vs rem -->
+<h2>Task 2: em vs rem</h2>
+<div id="task2-container">
+    <div class="em-rem-demo">
+      
+        <p class="em">This paragraph uses <code>2em</code> for font-size and margin-left.</p>
+        <p class="rem">This paragraph uses <code>2rem</code> for font-size and margin-left.</p>
+    </div>
+</div>
+
+<!-- Task 3: Viewport Units (vh and vw) -->
+<h2>Task 3: Viewport Units (vh and vw)</h2>
+<div class="viewport-layout">
+    <header>Header (height: 10vh)</header>
+    <main>
+        <div class="sidebar">Sidebar (width: 20vw)</div>
+        <div class="content">Main Content area</div>
+    </main>
+    <footer>Footer (height: 10vh)</footer>
+</div>
+
+<!-- Task 4: Fluid Layout with Flexbox -->
+<h2>Task 4: Fluid Layout with Flexbox</h2>
+<div class="flex-container">
+    <div class="left">Left Column (200px fixed)</div>
+    <div class="middle">Middle Column (flex: 1 - fills remaining)</div>
+    <div class="right">Right Column (20% of container)</div>
+</div>
+
+<!-- Task 5: Viewport Hero Section -->
+<h2>Task 5: Viewport Hero Section</h2>
+<section class="hero">
+    <div class="hero-content">
+        <h2>Hero Section</h2>
+        <p>This section is full viewport height (100vh) and centered content. Padding uses <code>vmin</code> units.</p>
+    </div>
+</section>
+
+</body>
+</html>

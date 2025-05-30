@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+    line-height: 1.4;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+h2 {
+    margin-top: 40px;
+    color: #333;
+}
+
+#task1-container {
+    width: 400px;
+    background-color: #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.box {
+    display: inline-block;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.absolute-box {
+    width: 150px;
+    height: 100px;
+    background-color: #4caf50;
+}
+
+.relative-box {
+    width: 50%;  
+    height: 30vh; 
+    background-color: #2196f3;
+}
+
+
+#task2-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.em-rem-demo {
+    font-size: 14px;
+}
+p {
+    margin: 1em 0;
+}
+p.em {
+    font-size: 2em;       
+    margin-left: 2em;     
+    background-color: #e0f7fa;
+}
+p.rem {
+    font-size: 2rem;     
+    margin-left: 2rem;    
+    background-color: #ffe0b2;
+}
+
+/* Task 3 styles */
+.viewport-layout header,
+.viewport-layout main,
+.viewport-layout footer {
+    text-align: center;
+    color: #fff;
+}
+.viewport-layout header {
+    height: 10vh;
+    background-color: #795548;
+}
+.viewport-layout main {
+    display: flex;
+    height: 80vh;
+}
+.viewport-layout .sidebar {
+    width: 20vw;
+    background-color: #8bc34a;
+    color: #333;
+    padding: 10px;
+}
+.viewport-layout .content {
+    flex: 1;
+    background-color: #c8e6c9;
+    padding: 10px;
+}
+.viewport-layout footer {
+    height: 10vh;
+    background-color: #607d8b;
+}
+
+/* Task 4 styles */
+.flex-container {
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.flex-container .left {
+    width: 200px;
+    background-color: #ffcc80;
+    padding: 10px;
+}
+.flex-container .middle {
+    flex: 1;
+    background-color: #ffe082;
+    padding: 10px;
+}
+.flex-container .right {
+    width: 20%;
+    background-color: #ffb74d;
+    padding: 10px;
+}
+
+/* Task 5 styles */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #90caf9;
+    text-align: center;
+}
+.hero-content {
+    padding: 5vmin;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 8px;
+}
